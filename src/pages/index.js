@@ -60,7 +60,7 @@ export default class Index extends React.Component {
                     <li>CSS & SASS</li>
                   </ul>
                   <ul>
-                    <li>NodeJS</li>
+                    <li>Node</li>
                     <li>PostgreSQL</li>
                     <li>Gatsby</li>
                     <li>Git</li>
@@ -81,7 +81,7 @@ export default class Index extends React.Component {
                 <h4>01</h4>
                 <h3>Telescope</h3>
                 <p>A stock ticker for the political economy, Telescope is a web application used to observe federal campaign finance activity in real-time.</p>
-                <p className="project-item__tools">NodeJS, Express, NextJS, Redux</p>
+                <p className="project-item__tools">Node, Express, NextJS, Redux</p>
                 <div className="project-item__buttonrow">
                   <a href="https://telescope.circavictor.com" className="button-outline-smaller button-work">Visit site</a>
                   <a href="https://medium.com/circa-victor/telescope-a-stock-ticker-for-the-political-economy-26e884f795ef" className="work-link">Read Blog Post</a>
@@ -95,7 +95,7 @@ export default class Index extends React.Component {
                 <h4>02</h4>
                 <h3>Recip-Easy</h3>
                 <p>A web application that tracks grocery items and generates recipe ideas.</p>
-                <p className="project-item__tools">NodeJS, React, Redux, Watson Visual Recognition, Barcode Scanning</p>
+                <p className="project-item__tools">Node, Express, React, Redux, Watson Visual Recognition, Barcode Scanning</p>
                 <div className="project-item__buttonrow">
                   <a href="https://recip-easy.com" className="button-outline-smaller button-work">Visit site</a>
                 </div>
@@ -106,7 +106,10 @@ export default class Index extends React.Component {
                 <h4>03</h4>
                 <h3>Smart Aina</h3>
                 <p>An IoT project that detects and deters theft on small-yield farms, and sends alerts that can be monitored via a user dashboard.</p>
-                <p className="project-item__tools">NodeJS, React, Particle Photon Microcontroller</p>
+                <p className="project-item__tools">Node, PostgreSQL, React, Android, Google Firebase, Particle Photon Microcontroller</p>
+                <div className="project-item__buttonrow">
+                  <a href="https://smartyields.com/smart-yields-backs-hackathon-teams/" className="button-outline-smaller button-work">Read Blog Post</a>
+                </div>
               </div>
               <div className="project-item__image">
                 <img id="smartaina__img" src={smartaina} alt="Smart Aina. An IoT project that detects and deters intruders on small-yield farms, and sends alerts that can be monitored via a user dashboard."/>
