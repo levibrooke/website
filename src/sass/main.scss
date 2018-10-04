@@ -6,7 +6,7 @@
 
 .button-solid {
   border: none;
-  padding: 10px 60px;
+  padding: 10px 80px;
   font-size: 18px;
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
@@ -265,6 +265,7 @@ header {
   }
   #smartaina__img {
     height: 220px;
+    z-index: 1;
   }
 }
 .project-item__container {
@@ -303,6 +304,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 .project-item__image::before {
   content: '';
@@ -314,6 +316,17 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
+}
+#smartaina__img-frame {
+  position: relative;
+  top: -240px;
+  left: -20px;
+  border: 4px solid #2F3130;
+  z-index: 0;
+  height: 220px;
+  width: 200px;
+  z-index: 0;
 }
 .contact-content {
   display: flex;
