@@ -1,0 +1,22 @@
+.contact-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.contact-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 600px;
+
+  p > a {
+    color: #000000;
+    border-bottom: 1px dotted #000000;
+  }
+
+  .button-outline-smaller {
+    margin: 40px;
+  }
+}
