@@ -28,7 +28,7 @@
   img {
     position: relative;
   }
-  #telescope__img {
+  #telescope__img, #umwhat__img {
     height: 240px;
   }
   #recipeasy__img {
@@ -57,6 +57,7 @@
   width: 200px;
   height: 220px;
   position: relative;
+  margin-left: 20px;
 }
 .project-item__image::after {
   content: '';

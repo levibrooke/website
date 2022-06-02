@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../layouts';
 import levi from '../img/levi-grayscale.jpg';
+import umwhat from '../img/umwhat.png';
 import telescope from '../img/telescope.png';
 import recipeasy from '../img/recip-easy2.png';
 import smartaina from '../img/smart-aina.jpg';
@@ -27,7 +28,7 @@ export default function Index() {
           <div className="intro-container">
             <h1>Levi<span className="break-text">Porter</span></h1>
             {/* <hr className="divider" /> */}
-            <h2>Fullstack Developer</h2>
+            <h2>Software Engineer</h2>
           </div>
           <a href="mailto:levi@levibrooke.com" id="intro-cta" className="button-solid">Say Hello</a>
         </section>
@@ -39,22 +40,24 @@ export default function Index() {
         <section className="bio-content">
           <div className="bio-container">
             <div className="bio-container__copy">
-              <p>I'm a developer with a passion for collaborating with talented people to build unique user experiences.</p>
-              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a>, a learning bootcamp based in Honolulu, Hawaii. Prior to becoming a developer, I served in the Coast Guard and worked in digital marketing.</p>
-              <p>When I'm not working, you can find me on a soccer field, hiking in Washington's great outdoors, or exploring Seattle.</p>
+              <p>I'm a software engineer with a passion for collaborating with talented people to build unique user experiences. Most recently, I worked at Amazon Web Services on the Signin team.</p>
+              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a>, a learning bootcamp based in Honolulu, Hawaii. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
+              <p>When I'm not working, you can find me on a soccer field, riding motorcycles, or exploring Seattle.</p>
               <p>Technologies that I have experience with:</p>
               <div className="tools">
                 <ul>
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>CSS & SASS</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>Amazon Web Services</li>
+                  <li>Databases</li>
+                  <li>Git</li>
                 </ul>
                 <ul>
+                  <li>JavaScript</li>
                   <li>Node</li>
-                  <li>PostgreSQL</li>
+                  <li>React</li>
                   <li>Gatsby</li>
-                  <li>Git</li>
+                  <li>CSS & SASS</li>
                 </ul>
               </div>
             </div>
@@ -70,41 +73,52 @@ export default function Index() {
           <div className="project-item">
             <div className="project-item__container">
               <h4>01</h4>
+              <h3>Um What Day Is It?</h3>
+              <p>Built early in the pandemic, this project was a fun way to answer the question a lot of people had during the pandemic.</p>
+              <p className="project-item__tools">React, Gatsby, Google Sheets CMS, Netlify</p>
+              <div className="project-item__buttonrow">
+                <a href="https://umwhatdayisit.com/" className="button-outline-smaller button-work">Visit site</a>
+              </div>
+            </div>
+            <img id="umwhat__img" src={umwhat} alt="Um What Day Is It? Because seriously, what day is it?"/>
+          </div>
+          <div className="project-item">
+            <img id="telescope__img" src={telescope} alt="Telescope. A stock ticker for the political economy."/>
+            <div className="project-item__container">
+              <h4>02</h4>
               <h3>Telescope</h3>
               <p>A stock ticker for the political economy, Telescope is a web application used to observe federal campaign finance activity in real-time.</p>
               <p className="project-item__tools">Node, Express, NextJS, Redux</p>
               <div className="project-item__buttonrow">
-                <a href="https://telescope.circavictor.com" className="button-outline-smaller button-work">Visit site</a>
-                <a href="https://medium.com/circa-victor/telescope-a-stock-ticker-for-the-political-economy-26e884f795ef" className="work-link">Read Blog Post</a>
-              </div>
-            </div>
-            <img id="telescope__img" src={telescope} alt="Telescope. A stock ticker for the political economy."/>
-          </div>
-          <div className="project-item">
-            <img id="recipeasy__img" src={recipeasy} alt="Recip-Easy. A web application that tracks grocery items and generates recipe ideas."/>
-            <div className="project-item__container">
-              <h4>02</h4>
-              <h3>Recip-Easy</h3>
-              <p>A web application that tracks grocery items and generates recipe ideas.</p>
-              <p className="project-item__tools">Node, Express, React, Redux, Watson Visual Recognition, Barcode Scanning</p>
-              <div className="project-item__buttonrow">
-                <a href="https://recip-easy.com" className="button-outline-smaller button-work">Visit site</a>
+                <a href="https://medium.com/circa-victor/telescope-a-stock-ticker-for-the-political-economy-26e884f795ef" className="button-outline-smaller button-work">Read Blog Post</a>
               </div>
             </div>
           </div>
           <div className="project-item">
             <div className="project-item__container">
               <h4>03</h4>
+              <h3>Recip-Easy</h3>
+              <p>A web application that tracks grocery items and generates recipe ideas.</p>
+              <p className="project-item__tools">Node, Express, React, Redux, Watson Visual Recognition, Barcode Scanning</p>
+              <div className="project-item__buttonrow">
+                <a href="https://github.com/jblau07/final_project" className="button-outline-smaller button-work">View on Github</a>
+              </div>
+            </div>
+            <img id="recipeasy__img" src={recipeasy} alt="Recip-Easy. A web application that tracks grocery items and generates recipe ideas."/>
+          </div>
+          <div className="project-item">
+            <div className="project-item__image">
+              <img id="smartaina__img" src={smartaina} alt="Smart Aina. An IoT project that detects and deters intruders on small-yield farms, and sends alerts that can be monitored via a user dashboard."/>
+              <div id="smartaina__img-frame" />
+            </div>
+            <div className="project-item__container">
+              <h4>04</h4>
               <h3>Smart Aina</h3>
               <p>An IoT project that detects and deters theft on small-yield farms, and sends alerts that can be monitored via a user dashboard.</p>
               <p className="project-item__tools">Node, PostgreSQL, React, Android, Google Firebase, Particle Photon Microcontroller</p>
               <div className="project-item__buttonrow">
                 <a href="https://smartyields.com/smart-yields-backs-hackathon-teams/" className="button-outline-smaller button-work">Read Blog Post</a>
               </div>
-            </div>
-            <div className="project-item__image">
-              <img id="smartaina__img" src={smartaina} alt="Smart Aina. An IoT project that detects and deters intruders on small-yield farms, and sends alerts that can be monitored via a user dashboard."/>
-              <div id="smartaina__img-frame" />
             </div>
           </div>
         </section>
