@@ -40,16 +40,18 @@ export default function Index() {
         <section className="bio-content">
           <div className="bio-container">
             <div className="bio-container__copy">
-              <p>I'm a software engineer with a passion for collaborating with talented people to build unique user experiences. Most recently, I worked at Amazon Web Services on the Signin team.</p>
-              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a>, a learning bootcamp based in Honolulu, Hawaii. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
-              <p>When I'm not working, you can find me on a soccer field, riding motorcycles, or exploring Seattle.</p>
+              <p>I'm a software engineer with a passion for collaborating with talented teams to build unique user experiences. Most recently, I worked on the Sign-in team at Amazon Web Services.</p>
+              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a> and <a href="https://www.codefellows.org/">Code Fellows</a> - learning bootcamps where I studied software development in Javascript and Java. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
+              <p>When I'm not working, you can find me on a soccer field, riding motorcycles, or exploring the PNW.</p>
               <p>Technologies that I have experience with:</p>
               <div className="tools">
                 <ul>
                   <li>Java</li>
                   <li>Python</li>
                   <li>Amazon Web Services</li>
-                  <li>Databases</li>
+                  <li>Relational Databases</li>
+                  <li>Angular</li>
+                  <li>CI/CD</li>
                   <li>Git</li>
                 </ul>
                 <ul>
@@ -57,7 +59,9 @@ export default function Index() {
                   <li>Node</li>
                   <li>React</li>
                   <li>Gatsby</li>
+                  <li>Express</li>
                   <li>CSS & SASS</li>
+                  <li>Testing</li>
                 </ul>
               </div>
             </div>
