@@ -27,7 +27,6 @@ export default function Index() {
         <section className="intro">
           <div className="intro-container">
             <h1>Levi<span className="break-text">Porter</span></h1>
-            {/* <hr className="divider" /> */}
             <h2>Software Engineer</h2>
           </div>
           <a href="mailto:levi@levibrooke.com" id="intro-cta" className="button-solid">Say Hello</a>
@@ -41,7 +40,7 @@ export default function Index() {
           <div className="bio-container">
             <div className="bio-container__copy">
               <p>I'm a software engineer with a passion for collaborating with talented teams to build unique user experiences. Most recently, I worked on the Sign-in team at Amazon Web Services.</p>
-              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a> and <a href="https://www.codefellows.org/">Code Fellows</a> - learning bootcamps where I studied software development in Javascript and Java. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
+              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a> and <a href="https://www.codefellows.org/">Code Fellows</a>, learning bootcamps where I studied software development in Javascript and Java. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
               <p>When I'm not working, you can find me on a soccer field, riding motorcycles, or exploring the PNW.</p>
               <p>Technologies that I have experience with:</p>
               <div className="tools">
