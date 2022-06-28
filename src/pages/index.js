@@ -81,6 +81,7 @@ export default function Index() {
               <p className="project-item__tools">React, Gatsby, Google Sheets CMS, Netlify</p>
               <div className="project-item__buttonrow">
                 <a href="https://umwhatdayisit.com/" className="button-outline-smaller button-work">Visit site</a>
+                <a href="https://github.com/levibrooke/um-what-day-is-it" className="work-link">View on GitHub</a>
               </div>
             </div>
             <img id="umwhat__img" src={umwhat} alt="Um What Day Is It? Because seriously, what day is it?"/>
