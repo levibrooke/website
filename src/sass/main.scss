@@ -96,7 +96,14 @@ header {
   justify-content: flex-end;
   position: absolute;
   top: -65px;
-  width: 50%;
+  width: 100%;
+
+  .nav, .nav-code {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
 
   a {
     margin: 20px 25px;
@@ -106,6 +113,11 @@ header {
     text-transform: lowercase;
     letter-spacing: 4px;
     font-size: 16px;
+  }
+
+  .nav-code a {
+    font-weight: 300;
+    font-size: 12px;
   }
 }
 

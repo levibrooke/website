@@ -13,9 +13,14 @@ export default function Index() {
     <Layout>
       <div id="hero-wrapper">
         <header>
-          <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+          <div className="nav">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div className="nav-code">
+            <a href="https://github.com/levibrooke/website">View on GitHub</a>
+          </div>
         </header>
         <section id="home-img" className="home">
           <img src={levi} alt="Levi Porter" />
