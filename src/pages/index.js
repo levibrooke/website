@@ -82,7 +82,7 @@ export default function Index() {
             <div className="project-item__container">
               <h4>01</h4>
               <h3>Um What Day Is It?</h3>
-              <p>Built early in 2020, this project was a fun way to answer the question a lot of people had during the pandemic.</p>
+              <p>Built in early 2020, this project was a fun way to answer the question a lot of people had during the repetitiveness of the pandemic.</p>
               <p className="project-item__tools">React, Gatsby, Google Sheets CMS, Netlify</p>
               <div className="project-item__buttonrow">
                 <a href="https://umwhatdayisit.com/" className="button-outline-smaller button-work">Visit site</a>
