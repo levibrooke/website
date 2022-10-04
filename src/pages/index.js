@@ -45,7 +45,7 @@ export default function Index() {
           <div className="bio-container">
             <div className="bio-container__copy">
               <p>I'm a software engineer with a passion for collaborating with talented teams to build unique user experiences. Most recently, I worked on the Sign-in team at Amazon Web Services.</p>
-              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a> and <a href="https://www.codefellows.org/">Code Fellows</a>, learning bootcamps where I studied software development in Javascript and Java. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
+              <p>I am a graduate of <a href="https://devleague.com">DevLeague</a> and <a href="https://www.codefellows.org/">Code Fellows</a> - learning bootcamps where I studied software development in JavaScript and Java. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
               <p>When I'm not working, you can find me on a soccer field, riding motorcycles, or exploring the PNW.</p>
               <p>Technologies that I have experience with:</p>
               <div className="tools">
@@ -54,18 +54,18 @@ export default function Index() {
                   <li>Python</li>
                   <li>Amazon Web Services</li>
                   <li>Relational Databases</li>
-                  <li>Angular</li>
+                  <li>NoSQL Databases</li>
+                  <li>REST APIs</li>
                   <li>CI/CD</li>
-                  <li>Git</li>
                 </ul>
                 <ul>
                   <li>JavaScript</li>
                   <li>Node</li>
                   <li>React</li>
-                  <li>Gatsby</li>
                   <li>Express</li>
                   <li>CSS & SASS</li>
                   <li>Testing</li>
+                  <li>Git</li>
                 </ul>
               </div>
             </div>
@@ -83,9 +83,9 @@ export default function Index() {
               <h4>01</h4>
               <h3>Um What Day Is It?</h3>
               <p>Built in early 2020, this project was a fun way to answer the question a lot of people had during the repetitiveness of the pandemic.</p>
-              <p className="project-item__tools">React, Gatsby, Google Sheets CMS, Netlify</p>
+              <p className="project-item__tools">React, Gatsby, Google Sheets CMS, Django, MongoDB, Netlify</p>
               <div className="project-item__buttonrow">
-                <a href="https://umwhatdayisit.com/" className="button-outline-smaller button-work">Visit site</a>
+                <a href="https://umwhatdayisit.com" className="button-outline-smaller button-work">Visit site</a>
                 <a href="https://github.com/levibrooke/um-what-day-is-it" className="work-link">View on GitHub</a>
               </div>
             </div>
@@ -97,9 +97,10 @@ export default function Index() {
               <h4>02</h4>
               <h3>Telescope</h3>
               <p>A stock ticker for the political economy, Telescope is a web application used to observe federal campaign finance activity in real-time.</p>
-              <p className="project-item__tools">Node, Express, NextJS, Redux</p>
+              <p className="project-item__tools">React, Next.js, Redux, Vercel</p>
               <div className="project-item__buttonrow">
-                <a href="https://medium.com/circa-victor/telescope-a-stock-ticker-for-the-political-economy-26e884f795ef" className="button-outline-smaller button-work">Read Blog Post</a>
+                <a href="https://telescope.levibrooke.com" className="button-outline-smaller button-work">Visit site</a>
+                <a href="https://github.com/levibrooke/telescope" className="work-link">View on GitHub</a>
               </div>
             </div>
           </div>
