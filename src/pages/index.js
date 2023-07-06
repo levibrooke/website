@@ -44,7 +44,7 @@ export default function Index() {
         <section className="bio-content">
           <div className="bio-container">
             <div className="bio-container__copy">
-              <p>I'm a software engineer with a passion for collaborating with talented teams to build unique user experiences. Most recently, I worked on the Sign-in team at Amazon Web Services.</p>
+              <p>I'm a software engineer passionate about collaborating with talented teams to build unique user experiences. Previously, I worked on authentication at Amazon Web Services and most recently built e-commerce software at Alaska Airlines.</p>
               <p>I am a graduate of <a href="https://devleague.com">DevLeague</a> and <a href="https://www.codefellows.org/">Code Fellows</a> - learning bootcamps where I studied software development in JavaScript and Java. Prior to becoming an engineer, I served in the Coast Guard and worked in digital marketing.</p>
               <p>When I'm not working, you can find me on a soccer field, riding motorcycles, or exploring the PNW.</p>
               <p>Technologies that I have experience with:</p>
@@ -62,7 +62,7 @@ export default function Index() {
                   <li>JavaScript</li>
                   <li>Node</li>
                   <li>React</li>
-                  <li>Express</li>
+                  <li>Next.js</li>
                   <li>CSS & SASS</li>
                   <li>Testing</li>
                   <li>Git</li>
